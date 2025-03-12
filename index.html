@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div id="title" class="container">
+        <h1 id="page-title">Prayer Times</h1>
+        <h2 id="current-date">Loading...</h2>
+    </div>
+
+    <div id="nav">
+        <div class="container">
+            <ul>
+                <li><a href="#" class="city-btn" data-city="Copenhagen" data-country="DK"><strong id="copenhagen-name">København</strong></a></li>
+                <li><a href="#" class="city-btn" data-city="Aarhus" data-country="DK"><strong id="aarhus-name">Århus</strong></a></li>
+                <li><a href="#" class="city-btn" data-city="Odense" data-country="DK"><strong id="odense-name">Odense</strong></a></li>
+                <li><a href="#" class="city-btn" data-city="Malmo" data-country="SE"><strong id="malmo-name">Malmö</strong></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Fixed translate button -->
+    <button id="translate-btn">English</button>
+
+    <div id="times">
+        <div class="container" id="prayer-times">
+            <!-- Prayer times will be inserted here dynamically -->
+        </div>
+    </div>
+ 
+    <footer>
+        <p>Made by Appera Apps</p>
+    </footer>
+
+</body>
+</html>
