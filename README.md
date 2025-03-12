@@ -1,1 +1,0 @@
-# prayertimesdk.github.io
